@@ -1,0 +1,4 @@
+cron:
+- description: daily build of baseline year counts
+  url: /buildbasecounts
+  schedule: every 24 hours
