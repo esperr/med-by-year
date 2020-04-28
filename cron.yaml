@@ -1,4 +1,4 @@
 cron:
 - description: daily build of baseline year counts
-  url: /buildbasecounts
+  url: /buildnewbasecounts
   schedule: every 24 hours
