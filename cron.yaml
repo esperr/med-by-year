@@ -1,4 +1,7 @@
 cron:
 - description: daily build of baseline year counts
   url: /buildnewbasecounts
-  schedule: every 24 hours
+  schedule: every 6 hours
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
